@@ -13,9 +13,12 @@ const defaultData = {
   ],
 
   gallery:[
-    "licor artesanal.jpeg",
-    "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=800&q=80",
-    "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80"
+    "/assets/ima2.jpeg",
+    "/assets/ima5.jpeg",
+    "/assets/ima1.jpeg",
+    "/assets/ima3.jpeg",
+    "/assets/ima4.jpeg"
+
   ]
 };
 function getData(){try{return {...defaultData,...JSON.parse(localStorage.getItem("cienciasDelas"))}}catch{return defaultData}}
