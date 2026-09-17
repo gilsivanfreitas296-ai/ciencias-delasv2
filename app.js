@@ -1,5 +1,5 @@
 const defaultData = {
-  title:"Mulheres que transformam arte em história.",
+  title:"Mapeando saberes, valorizando mulheres: As artesãs e o patrimônio de Carolina MA.",
   project:"Ciências Delas nasce para registrar e divulgar histórias de mulheres artesãs de Carolina-MA. O projeto valoriza o conhecimento transmitido entre gerações, a criatividade presente em cada peça e o papel do artesanato na cultura e na economia local.",
   quote:"Cada peça carrega um pouco de quem cria, do lugar onde nasceu e da história que continua.",
   heroImage:"https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1000&q=85",
