@@ -4,12 +4,12 @@ const defaultData = {
   quote:"Cada peça carrega um pouco de quem cria, do lugar onde nasceu e da história que continua.",
   heroImage:"https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1000&q=85",
   artisans:[
-    {name:"Viviane",tech:"Bordado & costura",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/viviane.jpeg"},
-    {name:"Fátima Matos",tech:"Fibra & trançado",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/fatima.png"},
-    {name:"Eva Galvão",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/evagal.jpeg"},
-    {name:"Mariane",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/mariane.jpeg"},
-    {name:"Valéria",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/valeria.jpeg"},
-    {name:"Zeila Noleto",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/zeila.jpeg"}
+    {name:"Viviane",tech:"Bordado & costura",desc:"Artesã carolinense de grandes saberes em costura e bordado, transformando tecidos em peças cheias de história, delicadeza e identidade.",image:"/assets/viviane.jpeg"},
+    {name:"Fátima Matos",tech:"Fibra & trançado",desc:"Artesã de fibra e trançado, cuja técnica reflete tradição, resistência e criatividade, celebrando a beleza do trabalho manual.",image:"/assets/fatima.png"},
+    {name:"Eva Galvão",tech:"Cerâmica & criação",desc:"Artesã carolinense com talento em cerâmica e criação, dando forma a peças que unem cultura, memória e expressão artística.",image:"/assets/evagal.jpeg"},
+    {name:"Mariane",tech:"Cerâmica & criação",desc:"Artesã cujo olhar criativo e a habilidade na cerâmica revelam uma prática singular, marcada pela sensibilidade e pelo cuidado nas formas.",image:"/assets/mariane.jpeg"},
+    {name:"Valéria",tech:"Cerâmica & criação",desc:"Artesã de Carolina que transforma a argila em peças com personalidade, resgatando a beleza dos saberes tradicionais e o valor do fazer artesanal.",image:"/assets/valeria.jpeg"},
+    {name:"Zeila Noleto",tech:"Cerâmica & criação",desc:"Artesã de grande tradição em cerâmica e criação, cujas mãos despertam beleza, cultura e continuidade de um ofício cheio de memória.",image:"/assets/zeila.jpeg"}
   ],
 
   gallery:[
