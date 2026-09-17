@@ -6,9 +6,12 @@ const defaultData = {
   artisans:[
     {name:"Maria de Exemplo",tech:"Bordado & costura",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/viviane.jpeg"},
     {name:"Ana de Exemplo",tech:"Fibra & trançado",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/fatima.png"},
-    {name:"Joana de Exemplo",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/maria.jpeg"},
-    {name:"Maria de Exemplo",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/mariane.jpeg"}
+    {name:"Joana de Exemplo",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/evagal.jpeg"},
+    {name:"Maria de Exemplo",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/mariane.jpeg"},
+    {name:"Maria de Exemplo",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/valeria.jpeg"},
+    {name:"Maria de Exemplo",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/zeila.jpeg"}
   ],
+
   gallery:[
     "licor artesanal.jpeg",
     "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=800&q=80",
