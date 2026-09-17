@@ -2,7 +2,7 @@ const defaults = {
   title:"Mulheres que transformam arte em história.",
   project:"Ciências Delas nasce para registrar e divulgar histórias de mulheres artesãs de Carolina-MA. O projeto valoriza o conhecimento transmitido entre gerações, a criatividade presente em cada peça e o papel do artesanato na cultura e na economia local.",
   quote:"Cada peça carrega um pouco de quem cria, do lugar onde nasceu e da história que continua.",
-  heroImage:"https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1000&q=85",
+  heroImage:"/assets/hero.jpeg",
   artisans:[
     {name:"Maria de Exemplo",tech:"Bordado & costura",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/viviane.jpeg"},
     {name:"Ana de Exemplo",tech:"Fibra & trançado",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80"},

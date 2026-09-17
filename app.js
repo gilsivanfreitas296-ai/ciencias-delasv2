@@ -2,7 +2,7 @@ const defaultData = {
   title:"Mapeando saberes, valorizando mulheres: As artesãs e o patrimônio de Carolina MA.",
   project:"O projeto visa trazer visibilidade para as artesãs de Carolina, mostrando a cultura, diversidade e memória de cada mulher junto com as suas histórias.",
   quote:"Cada peça carrega um pouco de quem cria, do lugar onde nasceu e da história que continua.",
-  heroImage:"https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1000&q=85",
+  heroImage:"/assets/hero.jpeg",
   artisans:[
     {name:"Viviane",tech:"Decoração & artesanato",desc:"Artesã com saberes em decoração e artesanato, criando peças que encantam com criatividade, beleza e um toque acolhedor para o lar.",image:"/assets/viviane.jpeg"},
     {name:"Fátima Matos",tech:"Licor artesanal",desc:"Artesã dedicada à produção de licor artesanal, preservando receitas e sabores tradicionais com talento e cuidado em cada preparo.",image:"/assets/fatima.png"},
