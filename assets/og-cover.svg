@@ -1,0 +1,39 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1120" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7E9EE"/>
+      <stop offset="0.5" stop-color="#E8CACF"/>
+      <stop offset="1" stop-color="#B77C8B"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1040" cy="120" r="200" fill="#F9D9D7" opacity="0.3" filter="url(#blur)"/>
+  <circle cx="180" cy="560" r="180" fill="#A55E6F" opacity="0.22" filter="url(#blur)"/>
+  <circle cx="1100" cy="500" r="140" fill="#FFF8F7" opacity="0.18" filter="url(#blur)"/>
+
+  <path d="M1030 30C955 120 930 200 959 265C991 334 1062 364 1110 362V30H1030Z" fill="#FFF1F3" opacity="0.18"/>
+  <path d="M100 610C170 470 274 470 356 548C431 618 490 610 560 560C626 512 680 450 756 418C856 378 960 435 1080 470V630H100V610Z" fill="#5D2F3B" opacity="0.12"/>
+
+  <rect x="80" y="90" width="350" height="350" rx="42" fill="url(#panel)" stroke="rgba(255,255,255,0.35)"/>
+  <circle cx="255" cy="265" r="125" fill="#FFFFFF" opacity="0.38"/>
+  <image href="favicon.jpg" x="168" y="178" width="174" height="174" preserveAspectRatio="xMidYMid slice" clip-path="circle(87px at 255 265)"/>
+
+  <g>
+    <text x="500" y="245" fill="#2E1E23" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="6" font-weight="700">CAROLINA · MARANHÃO</text>
+    <text x="500" y="330" fill="#2E1E23" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700">Ciências Delas</text>
+    <text x="500" y="392" fill="#5B3740" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="2.5" font-weight="700">MULHERES ARTESÃS E SABERES</text>
+    <text x="500" y="462" fill="#4B3A3E" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="500">@maos.decarolina</text>
+    <text x="500" y="510" fill="#4B3A3E" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500">https://cienciasdelas.vercel.app</text>
+  </g>
+
+  <rect x="500" y="525" width="290" height="8" rx="4" fill="#9C6672" opacity="0.9"/>
+</svg>
