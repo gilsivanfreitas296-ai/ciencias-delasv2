@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Ciências Delas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="admin-page">
+<header class="topbar">
+  <a class="brand" href="index.html"><span>Ciências</span> Delas</a>
+  <div class="admin-title">PAINEL ADMINISTRATIVO</div>
+  <a class="admin-link" href="index.html">Ver site ↗</a>
+</header>
+
+<main class="admin-wrap">
+  <div class="admin-hero">
+    <div>
+      <p class="eyebrow">GERENCIAMENTO</p>
+      <h1>Edite o conteúdo<br><em>do projeto.</em></h1>
+      <p>As alterações abaixo ficam salvas neste navegador. Para um painel online com vários usuários, será necessário conectar um banco de dados/autenticação.</p>
+    </div>
+    <button class="button" id="saveAll">Salvar alterações ✓</button>
+  </div>
+
+  <div class="admin-card">
+    <div class="section-tag">01 / CAPA E PROJETO</div>
+    <label>Título principal</label>
+    <input id="adminTitle" type="text">
+    <label>Texto de apresentação</label>
+    <textarea id="adminProject" rows="5"></textarea>
+    <label>Frase de destaque</label>
+    <input id="adminQuote" type="text">
+    <label>Imagem principal — URL</label>
+    <input id="adminHeroImage" type="url">
+  </div>
+
+  <div class="admin-card">
+    <div class="section-tag">02 / ARTESÃS</div>
+    <div id="adminArtisans"></div>
+    <button class="outline-button" id="addArtisan">+ Adicionar artesã</button>
+  </div>
+
+  <div class="admin-card">
+    <div class="section-tag">03 / GALERIA</div>
+    <p class="muted">Edite as imagens usando URLs de imagens. Você também pode hospedar as fotos em seu próprio site e colar os endereços aqui.</p>
+    <div id="adminGallery"></div>
+    <button class="outline-button" id="addGallery">+ Adicionar imagem</button>
+  </div>
+</main>
+
+<div id="toast" class="toast">Alterações salvas.</div>
+<script src="admin.js"></script>
+</body>
+</html>
