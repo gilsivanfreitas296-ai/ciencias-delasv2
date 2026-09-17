@@ -4,7 +4,7 @@ const defaultData = {
   quote:"Cada peça carrega um pouco de quem cria, do lugar onde nasceu e da história que continua.",
   heroImage:"https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1000&q=85",
   artisans:[
-    {name:"Maria de Exemplo",tech:"Bordado & costura",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"licor artesanal.jpeg"},
+    {name:"Maria de Exemplo",tech:"Bordado & costura",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/viviane.jpeg"},
     {name:"Ana de Exemplo",tech:"Fibra & trançado",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"/assets/fatima.png"},
     {name:"Joana de Exemplo",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?auto=format&fit=crop&w=800&q=80"},
     {name:"Maria de Exemplo",tech:"Cerâmica & criação",desc:"História da artesã e descrição de seu trabalho artesanal.",image:"https://images.unsplash.com/photo-1493106641515-6b5631de4bb9?auto=format&fit=crop&w=800&q=80"}
